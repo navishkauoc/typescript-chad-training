@@ -5,3 +5,6 @@ let lName: string = 'Kumar';
 
 console.log(found);
 console.log("Hi " + fName + " " + lName);
+
+//Using template strings
+console.log(`Hi ${fName} ${lName}`);

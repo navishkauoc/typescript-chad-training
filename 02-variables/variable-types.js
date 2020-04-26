@@ -4,3 +4,5 @@ var fName = "Anup";
 var lName = 'Kumar';
 console.log(found);
 console.log("Hi " + fName + " " + lName);
+//Using template strings
+console.log("Hi " + fName + " " + lName);
