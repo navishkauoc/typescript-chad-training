@@ -23,4 +23,8 @@ export class Rectangle extends Shape{
         return super.getInfo() + `, width= ${this._width}, height= ${this._height}`;
     }
 
+    calculateArea(): number {
+        return this._width * this._height;
+    }
+
 }
